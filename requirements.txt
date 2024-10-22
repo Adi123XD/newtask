@@ -1,0 +1,8 @@
+flask
+pymongo
+requests
+PyMuPDF
+psutil
+retry
+gunicorn
+
