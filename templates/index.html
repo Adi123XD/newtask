@@ -132,7 +132,8 @@
                     alert(result.error || "An error occurred during file upload.");
                 }
             } catch (error) {
-                alert("An unexpected error occurred. Please try again later.");
+                // alert("An unexpected error occurred. Please try again later.");
+                alert(str(error));
                 console.error(error);
             }
         };
